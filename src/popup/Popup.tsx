@@ -370,6 +370,9 @@ function PopupContent() {
                     </p>
                   )}
                   <p className="mt-3 text-xs text-nlm-secondary text-center font-body">
+                    Ao enviar, você concorda com a <a href="/politica-de-privacidade/" target="_blank" rel="noopener" className="underline underline-offset-2">política de privacidade</a> e aceita contato por WhatsApp.
+                  </p>
+                  <p className="mt-1 text-xs text-nlm-secondary text-center font-body">
                     Seus dados ficam só com a NSM. Sem spam.
                   </p>
                 </div>
