@@ -1,4 +1,4 @@
-import { ArrowUpRight } from "lucide-react";
+import { ArrowUpRight, BadgeCheck } from "lucide-react";
 import { usePopup } from "@/hooks/usePopup";
 
 const HeroSection = () => {
@@ -31,6 +31,11 @@ const HeroSection = () => {
             <span>Agendar Sessão Estratégica</span>
             <ArrowUpRight className="w-5 h-5" />
           </button>
+
+          <div className="flex items-center justify-center gap-2 mt-5 text-sm text-nlm-secondary font-body">
+            <BadgeCheck className="w-4 h-4 text-nlm-blue" />
+            <span>Meta Business Partner</span>
+          </div>
 
           {/* Stats row - attributed to real clients */}
           <div className="grid grid-cols-3 gap-4 max-w-xl mx-auto mt-16">
